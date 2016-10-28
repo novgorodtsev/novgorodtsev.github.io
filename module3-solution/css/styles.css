@@ -1,0 +1,44 @@
+.page-header {
+    text-align: center;
+    font-size: 2em;
+}
+.container-fluid {
+    background-color: #adadad;
+    align-content: left;
+}
+.navbar-header {
+    font-family: "Times New Roman";
+    font-size: 2em;
+}
+.heading, .menu-food, .menu-food-header {
+    text-align: center;
+    font-family: "Helvetica Neue";
+}
+.heading h1 {
+    font-size: 3em;
+}
+.menu-food-header {
+    font-size: 2em;
+}
+.menu-food {
+    font-size: 1em;
+    text-align: left;
+    background-color: #9d9d9d;
+
+}
+
+.col-xs-12, .col-sm-6, .col-lg-4 {
+    padding: 20px;
+}
+
+.container {
+    align-content: center;
+    align-items: center;
+}
+.menu-link {
+    text-align: center;
+    padding: 2px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-style: solid;
+}
