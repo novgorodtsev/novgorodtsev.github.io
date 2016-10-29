@@ -42,3 +42,6 @@
     font-weight: bold;
     border-style: solid;
 }
+.menu-link a {
+    color: black;
+}
