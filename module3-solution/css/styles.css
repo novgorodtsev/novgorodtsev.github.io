@@ -44,4 +44,9 @@
 }
 .menu-link a {
     color: black;
+    background-color: white;
+    border: 1px solid bisque;
+}
+.menu-list a:hover {
+    background-color: #8a6d3b;
 }
