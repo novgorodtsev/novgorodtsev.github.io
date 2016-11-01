@@ -41,6 +41,7 @@
     font-size: 1.1em;
     font-weight: bold;
     border-style: solid;
+    list-style: none;
 }
 .menu-link a {
     color: black;
