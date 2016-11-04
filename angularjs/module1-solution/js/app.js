@@ -12,8 +12,6 @@
 
     var message = "Please enter data first";
 
-    console.log("TEST");
-
     $scope.sayMessage = function () {
       return message;
     };
@@ -21,7 +19,8 @@
     $scope.setMessage = function () {
 
     if (typeof $scope.lunch_menu === 'undefined' || $scope.lunch_menu.length == 0) {
-       return;
+          message = "Please enter data first";
+          return;
      }
 
       var items =  $scope.lunch_menu.split(",");
@@ -33,14 +32,11 @@
          count++;
        }
      }
-      console.log(items);
 
      if (count > 3) {
        message = "Too much!";
      } else if(count > 0) {
        message = "Enjoy!";
-     } else {
-       message = "Please enter data first";
      }
     };
 
